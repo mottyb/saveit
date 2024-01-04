@@ -72,7 +72,7 @@ export default function AddUser() {
   };
   return (
     <div className={style.addUsers}>
-      <Title text={'מי כבר חוסך כסף?'}/>
+      <Title text={'בחרו בן משפחה'}/>
       {users.length > 0
         ? users.map((userData) => {
             return (
