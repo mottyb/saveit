@@ -74,10 +74,9 @@ border-radius: 50%;
     }
 }
 
-
 @media only screen and (max-width: 600px) {
     .antdCard  {
-        width: 140px;
+        width: 120px;
         height: 100px;
     }
     .addUsers {

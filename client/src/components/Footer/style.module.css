@@ -20,7 +20,10 @@
   padding: 0;
   margin: 0;
 }
-
+.addExpense:hover  {
+  width: 35px;
+  height: 35px;
+}
 .inputMony {
   margin: 0 10px;
   text-align: center;

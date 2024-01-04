@@ -11,7 +11,6 @@
 .main>div {
     border: 1px solid #ccc;
     padding: 10px;
-    width: 500px;
     background: #fff;
 }
 .title{
@@ -21,4 +20,16 @@
     text-align: center;
     gap: 10px;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .main>div {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .main>div {
+        width: 500px;
+    }
 }
