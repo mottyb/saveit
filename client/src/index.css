@@ -21,6 +21,7 @@ body{
 :root {
   --login_button_color: #7133d9;
   --primary_background:#fff;
+  --prbackground:#cccccc;
 }
 
 
