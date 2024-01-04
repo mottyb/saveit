@@ -1,0 +1,169 @@
+.addUsers {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    align-content: start;
+}
+
+
+.antdCardCover {
+    width: 75px !important;
+    height: 75Px  !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.user_card {
+    width: 20%;
+}
+.antdCard  {
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    box-shadow: none;
+    border:none ;
+}
+.antdCard:hover  {
+    box-shadow: none;
+}
+.delete {
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: black;
+    font-size: 40px;
+    line-height: 30px;
+    padding: 0;
+    margin: 0;
+    border: none;;
+}
+.delete span:hover {
+border: 1px solid  #ccc !important;
+color: black;
+border-radius: 50%;
+}
+.delete span {
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    display: block;
+}
+@media only screen and (min-width: 600px) {
+    .antdCard  {
+        width: 150px;
+        height: 150px;
+    }
+    .addUsers {
+        gap: 10px;
+    }
+    .delete {
+        bottom: 28px;
+        left: 0;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .antdCard  {
+        width: 120px;
+        height: 100px;
+    }
+    .addUsers {
+        gap: 10px;
+    }
+    .antdMetaPic {
+        margin-top: -18px !important;
+    }
+    .delete {
+        bottom: -7px;
+        left: -6px;
+    }
+}
+
+.antdButAdd  {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0;
+    margin: 0;
+    color: rgb(255 255 255) !important;
+}
+.antdButAdd:hover   {
+    border: none !important;
+    color: #fff !important;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.antdMetaAdd div div, .antdMetaAdd  {
+    padding: 0px 20px;
+    margin: 0;
+    height: auto;
+    line-height: 60px !important;
+    color: rgb(255 255 255) !important;
+    background:  var(--login_button_color);
+}
+
+.antdMetaAdd:hover, .antdMetaAdd, .antdButAdd   {
+    border: none !important;
+    color: #fff !important;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.myForm  {
+    width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10px;
+}
+.myForm input {
+    margin: 0 auto !important;
+    line-height: 40px;
+    font-size: 18px;
+    width: 300px;
+}
+.myForm button {
+    width: 300px;
+}
+.formItem {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop3 {
+    width: 100vw !important;
+    height: 100vh !important;
+    background: var(--primary_background);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0 !important;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+}
+
+.benBut {
+    color: red;
+    font-size: 18px;
+    border: 1px solid red;
+    line-height: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0px 20px;
+}

@@ -1,0 +1,96 @@
+.main_footer {
+  position: fixed;
+  bottom: 20px;
+  width:300px;
+  z-index: 1000;
+}
+.footer {
+  position: fixed;
+  height: 80px;
+  bottom: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  right: 84px;
+  background: #f1b542;
+  padding: 20px;
+}
+
+.addExpense  {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  border-radius: 50% !important;
+  background: rgb(113 51 217) !important;
+  color: white !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+.inputMony {
+  margin: 0 10px;
+  text-align: center;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 70px;
+  height: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .inputMony {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 16px;
+    width: 130px;
+    border-radius: 70px;
+    height: 30px;
+  }
+  .profile {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 80px;
+    left: 10px;
+  }
+  .addExpense {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 50% !important;
+    background: rgb(79, 198, 9) !important;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .footer input {
+    margin: 0 10px;
+    text-align: center;
+    font-size: 22px;
+    width: 200px;
+    border-radius: 70px;
+    height: 50px;
+  }
+  .profile {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+  }
+}
+
+.removeExpense:active,
+.addExpense:active {
+  transform: translateY(4px);
+}

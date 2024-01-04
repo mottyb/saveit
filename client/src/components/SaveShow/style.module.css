@@ -1,0 +1,39 @@
+.saveShow {
+    border: 2px solid #fff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background: #f1b542;
+    padding: 10px;
+    line-height: 12px;
+    color: #fff;
+  }
+
+  .saveShow span {
+    font-size: 18px !important;
+     color: #fff;
+}
+
+  .saveShow h4 {
+    font-size: 24px;
+    color: #fff;
+}
+
+  .saveBar {
+    position: fixed;
+    background: white;
+    z-index: 2;
+    top: 0;
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}

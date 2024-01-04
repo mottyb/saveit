@@ -1,0 +1,7 @@
+.paragraph{
+    width: 100%;
+    align-items: center;
+    padding:0 20px 0 10px;
+    text-wrap: pretty;
+    text-align: center;
+}

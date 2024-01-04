@@ -1,0 +1,61 @@
+.login{
+    overflow: hidden;
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+    background: var(--primary_background);
+
+}
+
+.input_item {
+    height: 56px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+    text-align: center;
+}
+
+.Button{
+    height: 56px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: block;
+    background-color: var(--login_button_color);
+    padding: 15px;
+}
+.link_button {
+    height: 56px;
+    margin: 0 auto;
+    display: block;
+    padding: 15px;
+}
+.web_connection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.line_separator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--primary_background);
+}
+@media only screen and (max-width: 600px) {
+    .link_button, .Button, .input_item, .form_item{
+        width: 350px;
+    } 
+}
+@media only screen and (min-width: 600px) {
+    .link_button, .Button, .input_item, .form_item{
+        width: 400px;
+    } 
+}

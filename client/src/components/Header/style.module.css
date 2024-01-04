@@ -1,0 +1,18 @@
+.header{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+}
+h1 {
+    line-height: 80px;
+    font-size: 70px;
+    font-weight: bold;
+    color: #7133d9;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    font-family: 'Dancing Script', cursive;
+}
+h1 span {
+    color: #f1b542;
+}
