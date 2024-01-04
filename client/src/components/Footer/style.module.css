@@ -4,19 +4,7 @@
   width:300px;
   z-index: 1000;
 }
-.footer {
-  position: fixed;
-  height: 80px;
-  bottom: 20px;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-  right: 84px;
-  background: #f1b542;
-  padding: 20px;
-}
+
 
 .addExpense  {
   width: 30px;
@@ -42,6 +30,19 @@
   height: 30px;
 }
 @media only screen and (max-width: 600px) {
+  .footer {
+    position: fixed;
+    height: 50px;
+    bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    right: 75px;
+    background: #f1b54260;
+    padding: 20px;
+  }
   .inputMony {
     margin: 0 10px;
     text-align: center;
@@ -72,6 +73,19 @@
 }
 
 @media only screen and (min-width: 600px) {
+  .footer {
+    position: fixed;
+    height: 80px;
+    bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    right: 84px;
+    background: #f1b542;
+    padding: 20px;
+  }
   .footer input {
     margin: 0 10px;
     text-align: center;
