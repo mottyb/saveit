@@ -20,6 +20,7 @@ export default function SaveShow({ endNumber, text, from }) {
 
   useEffect(() => {
     let start = 0;
+    if( Number(count)>0)start = Number(count)
     if (start === end) {
       setCount(0);
       return;
