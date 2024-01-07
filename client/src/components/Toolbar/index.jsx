@@ -18,7 +18,7 @@ export default function Toolbar() {
       icon: (
         <IoMdHome
           className={style.icon}
-          color={active === "home" ? "blue" : "black"}
+          color={active === "home" ? "white" : "white"}
         />
       ),
       onclick: (e) => {
@@ -31,7 +31,7 @@ export default function Toolbar() {
       icon: (
         <IoIosTrophy
           className={style.icon}
-          color={active === "competition" ? "blue" : "black"}
+          color={active === "competition" ? "white" : "white"}
         />
       ),
       onclick: (e) => {
@@ -44,7 +44,7 @@ export default function Toolbar() {
       icon: (
         <IoMdShare
           className={style.icon}
-          color={active === "share" ? "blue" : "black"}
+          color={active === "share" ? "white" : "white"}
         />
       ),
       onclick: (e) => {
@@ -52,24 +52,24 @@ export default function Toolbar() {
         // setOpenSocial(true);
       },
     },
-    {
-      value: "webinar",
-      icon: (
-        <FaChalkboard
-          className={style.icon}
-          color={active === "webinar" ? "blue" : "black"}
-        />
-      ),
-      onclick: (e) => {
-        setActive("webinar");
-      },
-    },
+    // {
+    //   value: "webinar",
+    //   icon: (
+    //     <FaChalkboard
+    //       className={style.icon}
+    //       color={active === "webinar" ? "white" : "white"}
+    //     />
+    //   ),
+    //   onclick: (e) => {
+    //     setActive("webinar");
+    //   },
+    // },
     {
       value: "logout",
       icon: (
         <IoMdLogOut
           className={style.icon}
-          color={active === "logout" ? "blue" : "black"}
+          color={active === "logout" ? "white" : "white"}
         />
       ),
       onclick: (e) => {
